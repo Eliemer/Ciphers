@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net5.0</TargetFramework>
+		<OtherFlags>--sig:CipherSolution.fsi</OtherFlags>
+		<WarnOn>3390;$(WarnOn)</WarnOn>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Compile Include="CaesarCipher\CaesarCipher.fs" />
+		<Compile Include="Program.fs" />
+	</ItemGroup>
+</Project>
