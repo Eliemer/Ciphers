@@ -3,9 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Ciphers", "Ciphers\Ciphers.fsproj", "{22AB27F1-FCAD-469D-B7DB-37E847EB9BF0}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Ciphers", "Ciphers\Ciphers.fsproj", "{22AB27F1-FCAD-469D-B7DB-37E847EB9BF0}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Ciphers.Tests", "Ciphers.Tests\Ciphers.Tests.fsproj", "{58BFE793-A699-4A03-AB29-602A398A47C1}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Ciphers.Tests", "Ciphers.Tests\Ciphers.Tests.fsproj", "{58BFE793-A699-4A03-AB29-602A398A47C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B922EC28-CFCD-4A1A-89D4-CA028CF3F2B7}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +20,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{22AB27F1-FCAD-469D-B7DB-37E847EB9BF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -44,5 +46,11 @@ Global
 		{58BFE793-A699-4A03-AB29-602A398A47C1}.Release|x64.Build.0 = Release|Any CPU
 		{58BFE793-A699-4A03-AB29-602A398A47C1}.Release|x86.ActiveCfg = Release|Any CPU
 		{58BFE793-A699-4A03-AB29-602A398A47C1}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3BC57345-15A8-4A2A-8102-BF335D7B0A8F}
 	EndGlobalSection
 EndGlobal
