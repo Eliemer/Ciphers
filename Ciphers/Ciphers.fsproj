@@ -8,7 +8,16 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+		<Compile Include="Common\CommonTypes.fs" />
+		<Compile Include="MonoAlphabeticCipher\MonoAlphabeticCipher.fs" />
 		<Compile Include="CaesarCipher\CaesarCipher.fs" />
 		<Compile Include="Program.fs" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="MonophonicSubstitutionCipher\" />
+	  <Folder Include="HillCipher\" />
+	  <Folder Include="PlayfairCipher\" />
+	  <Folder Include="VigenereCipher\" />
 	</ItemGroup>
 </Project>

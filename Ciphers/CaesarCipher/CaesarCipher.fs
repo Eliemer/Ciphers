@@ -1,5 +1,7 @@
 ﻿namespace Ciphers
 
+open CommonTypes
+
 module Caesar = 
 
     /// Euclidean remainder, the proper modulo operation
@@ -20,11 +22,10 @@ module Caesar =
         else
             failwith $"{c} is not a valid character"
 
-    let encode (key:int) (str:string) = 
+    let encode (key:int) (str:AlphaString) = 
         str
-        |> String.map (shiftChar key)
+        |> AlphaString.map (String.map (shiftChar key))
 
-
-    let decode (key:int) (str:string) = 
+    let decode (key:int) (str:AlphaString) = 
         str
-        |> String.map (shiftChar -key)
+        |> AlphaString.map (String.map (shiftChar -key))
